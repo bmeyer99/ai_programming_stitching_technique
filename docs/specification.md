@@ -6,14 +6,14 @@ This document details the core specifications of the AI Stitching Programming Te
 
 Review cycles are initiated at specific checkpoints:
 
-| Trigger Type | Description | Example |
-|--------------|-------------|---------|
-| **Component Completion** | After completing a functional unit | Finishing a class or function |
-| **Line Count** | After generating a specific number of lines | Every 50-100 lines of code |
-| **Complexity Threshold** | After implementing complex logic | After writing nested conditionals |
-| **Integration Point** | Before connecting to dependent components | Before API integration |
-| **Time-Based** | After a set duration of continuous generation | Every 5 minutes |
-| **User-Initiated** | When explicitly requested | User commands review |
+| Trigger Type | Description | Example | Implementation |
+|--------------|-------------|---------|----------------|
+| **Component Completion** | After completing a functional unit | Finishing a class or function | [Example](trigger-examples.md#1-component-completion-trigger) |
+| **Line Count** | After generating a specific number of lines | Every 50-100 lines of code | [Example](trigger-examples.md#2-line-count-trigger) |
+| **Complexity Threshold** | After implementing complex logic | After writing nested conditionals | [Example](trigger-examples.md#3-complexity-threshold-trigger) |
+| **Integration Point** | Before connecting to dependent components | Before API integration | [Example](trigger-examples.md#4-integration-point-trigger) |
+| **Time-Based** | After a set duration of continuous generation | Every 5 minutes | [Example](trigger-examples.md#5-time-based-trigger) |
+| **User-Initiated** | When explicitly requested | User commands review | [Example](trigger-examples.md#6-user-initiated-trigger) |
 
 ## Review Cycle Types
 
