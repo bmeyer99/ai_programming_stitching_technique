@@ -612,5 +612,6 @@ The three-phase Scaffold-Stitch approach transforms a complex integration projec
 
 By following this plan, the development team will deliver a best-in-class MCP server that showcases DocaiChe's intelligent documentation capabilities while providing AI agents with seamless access to comprehensive, up-to-date documentation resources.
 
+<img width="811" alt="image" src="https://github.com/user-attachments/assets/26e63708-5af9-4590-af4f-02dd71a0efc0" />
 
 <img width="837" alt="image" src="https://github.com/user-attachments/assets/3efc657d-775b-4568-a688-cc02d2b29d30" />
