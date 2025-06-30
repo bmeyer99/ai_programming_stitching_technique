@@ -92,4 +92,3 @@ When implementing these advanced features:
 4. **Customize**: Adapt features to specific organizational needs
 5. **Feedback Loops**: Continuously refine based on results
 
-<img width="837" alt="image" src="https://github.com/user-attachments/assets/3efc657d-775b-4568-a688-cc02d2b29d30" />
