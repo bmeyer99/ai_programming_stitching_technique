@@ -612,6 +612,18 @@ The three-phase Scaffold-Stitch approach transforms a complex integration projec
 
 By following this plan, the development team will deliver a best-in-class MCP server that showcases DocaiChe's intelligent documentation capabilities while providing AI agents with seamless access to comprehensive, up-to-date documentation resources.
 
+**Prompt to get the plan:**
+```
+I want you to think hard about a plan to implement mcp functionality for the searching. This is the main use case of the application. The ai agent, like yourself, needs to get the latest documentation for pylance so yo send a query to our app requesting what you need, we then take it in over MCP and then figure out if we have what the need or if we have to go searching for it and download it and then send it back to the requstor. As I said I want you to think hard about an intuitive MCP for our functionality here. Think hard about our plan and present it to me.
+```
+
+**Prompt to get the plan:**
+```
+This is a great plan. I think hard when you create your todo list for implementation. I want you to incorporatethe AI Stitching Programming Technique at https://github.com/bmeyer99/ai_programming_stitching_technique.git when creating your tasks to make sure you get full code coverage. Make sure to incoreate the The Scaffold-Stitch Model: Integrated Approach to AI Development. I recommend you use what is easiest to pull down the entire repo as its about 13 or so documents but not long for each.
+```
+
+
+
 <img width="827" alt="image" src="https://github.com/user-attachments/assets/46e170a2-d5d4-47af-aa23-00a2e1923aba" />
 
 <img width="811" alt="image" src="https://github.com/user-attachments/assets/26e63708-5af9-4590-af4f-02dd71a0efc0" />
