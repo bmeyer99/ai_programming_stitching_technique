@@ -31,5 +31,13 @@
 | **Review Efficiency** | Ratio of time spent in review versus generation |
 | **Knowledge Retention** | Accuracy of references to earlier code in the same project |
 | **Code Archaeology** | Process of understanding and documenting existing code |
+| **AI Scaffolding Engineering** | A methodology for establishing a complete structural foundation before implementing business logic |
+| **Scaffold-Stitch Model** | Integrated approach combining AI Scaffolding Engineering with ASPT |
+| **Scaffolding Phase** | Initial development phase focused on architectural structure and interfaces |
+| **Implementation Phase** | Second development phase focused on business logic within the established scaffold |
+| **Integration Phase** | Final development phase focused on connecting components into a complete system |
+| **Structure-First Development** | Approach prioritizing architectural structure over implementation details |
+| **Interface-Driven Development** | Development approach focusing on defining interfaces before implementation |
+| **TODO Markers** | Explicit comments indicating where implementation should occur |
 
 [Back to README](../README.md)

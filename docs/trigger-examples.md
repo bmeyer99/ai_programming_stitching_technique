@@ -231,4 +231,108 @@ When any of these conditions are met, pause and perform the appropriate
 level of review before continuing.
 ```
 
+## 8. Project-Schedule Trigger
+
+This approach integrates code reviews into the project schedule as predefined milestones.
+
+### Example Project Plan with Integrated ASPT Reviews
+
+```
+⎿  ☐ Phase 1 Day 1: Update Promtail configuration for AI-specific labels
+   ☐ Phase 1 Day 1: Add AIOperationLogger to logging_config.py
+   ☐ Code Review 1: Verify Promtail config and logging changes
+   ☐ Phase 1 Day 2: Create ai_logs_endpoints.py with base router structure
+   ☐ Phase 1 Day 2: Create AILogProcessor class skeleton
+   ☐ Code Review 2: Verify API endpoint structure and imports
+   ☐ Phase 1 Day 3: Implement query endpoint with all parameters
+   ☐ Phase 1 Day 3: Create models for AILogQuery and AILogResponse
+   ☐ Code Review 3: Verify query endpoint implementation and models
+   ☐ Phase 1 Day 4: Implement AILogProcessor core methods
+   ☐ Phase 1 Day 4: Create LokiClient wrapper for AI queries
+   ☐ Code Review 4: Verify processor logic and Loki integration
+   ☐ Phase 1 Day 5: Create database migration for AI logging tables
+   ☐ Phase 1 Day 5: Update main.py to include AI logs router
+   ☐ Code Review 5: Verify database schema and router registration
+   ☐ Integration Test 1: Test basic AI log querying
+   ☐ Phase 2 Day 6: Implement LogCorrelator class
+   ☐ Phase 2 Day 6: Add correlation endpoint to router
+   ☐ Code Review 6: Verify correlation logic and graph building
+   ☐ Phase 2 Day 7: Implement PatternDetector with regex patterns
+   ☐ Phase 2 Day 7: Add pattern detection to processor
+   ☐ Code Review 7: Verify pattern detection accuracy
+   ☐ Phase 2 Day 8: Implement WebSocket streaming endpoint
+   ☐ Phase 2 Day 8: Create StreamManager class
+   ☐ Code Review 8: Verify WebSocket implementation and error handling
+   ☐ Phase 2 Day 9: Add conversation tracking endpoints
+   ☐ Phase 2 Day 9: Implement workspace summary endpoint
+   ☐ Code Review 9: Verify AI-specific features implementation
+   ☐ Phase 2 Day 10: Add export functionality
+   ☐ Phase 2 Day 10: Implement caching with Redis
+   ☐ Code Review 10: Verify export formats and cache integration
+   ☐ Integration Test 2: Test all Phase 2 features
+   ☐ Phase 3 Day 11: Add trace propagation middleware
+   ☐ Phase 3 Day 11: Update AnythingLLM client for correlation
+   ☐ Code Review 11: Verify trace propagation across services
+   ☐ Phase 3 Day 12: Update docker-compose with AI log env vars
+   ☐ Phase 3 Day 12: Update Dockerfile with AI dependencies
+   ☐ Code Review 12: Verify Docker configuration changes
+   ☐ Phase 3 Day 13: Create comprehensive test suite
+   ☐ Phase 3 Day 13: Add rate limiting tests
+   ☐ Code Review 13: Verify test coverage and edge cases
+   ☐ Phase 3 Day 14: Create API documentation
+   ☐ Phase 3 Day 14: Add OpenAPI specifications
+   ☐ Code Review 14: Verify documentation completeness
+   ☐ Final Integration Test: Full system test
+   ☐ Final Code Review: Complete system review
+   ☐ Phase 3 Day 15: Create Grafana dashboards
+   ☐ Phase 3 Day 15: Add Prometheus metrics
+   ☐ Code Review 15: Verify monitoring setup
+   ☐ Create deployment documentation
+```
+
+**ASPT Integration Analysis:**
+
+This project plan demonstrates excellent ASPT principles:
+
+1. **Regular Review Cadence**: Code reviews are scheduled after each logical grouping of development tasks (typically 1-2 days of work)
+
+2. **Progressive Review Depth**:
+   - **Shallow Stitches**: Early reviews (1-5) focus on structure, configuration, and basic implementation
+   - **Medium Stitches**: Middle reviews (6-12) address integration and functional correctness
+   - **Deep Stitches**: Later reviews (13-15) examine system-wide concerns and production readiness
+
+3. **Logical Grouping**: Reviews are positioned at natural breakpoints:
+   - After related components are implemented
+   - Before integration with other systems
+   - At the completion of functional milestones
+
+4. **Varied Review Focus**:
+   - Configuration validation
+   - Structural reviews
+   - Functional verification
+   - Integration testing
+   - Performance and scalability
+
+**Implementation Approach:**
+
+For AI-assisted development following this plan:
+
+```
+SYSTEM INSTRUCTION:
+You will help implement an AI logging system according to the provided schedule.
+For each task:
+
+1. Implement the specified component
+2. When reaching a scheduled code review point, perform the appropriate review:
+   - Early reviews (1-5): Perform Shallow Stitch reviews focused on structure and correctness
+   - Middle reviews (6-12): Perform Medium Stitch reviews focused on functionality and integration
+   - Final reviews (13-15): Perform Deep Stitch reviews focused on system-wide concerns
+
+Each review should specifically address the verification points mentioned in the review task.
+Explicitly note any issues found and resolve them before proceeding to the next tasks.
+```
+
+This approach demonstrates how ASPT can be incorporated into traditional project planning methodologies, with review triggers based on task completion rather than line count or time intervals.
+
 [Back to Specification](specification.md)
+
